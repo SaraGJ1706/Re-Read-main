@@ -1,0 +1,50 @@
+/*Primer encabezado de la web*/
+.header4 {
+    background-color: rgb(5, 56, 5); /*Fondo del color del encabezado*/
+    color: white; /*Color de la fuente*/
+}
+
+/*Segundo encabezado centrado*/
+h1 {
+    text-align: center;
+}
+
+/*Tamaño y posicion del texto*/
+.p {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+/*Tamaño de todas las imagenes*/
+img {
+    height: 200px;
+    width: 150px;
+}
+
+/*Estilo de la letras del apartado de eBook*/
+.p-eBooks {
+    font-size: 10px;
+    text-align: center;
+}
+
+.parrafo-verde {
+    background-color: rgb(5, 56, 5);
+}
+
+/*Apartado izquierdo con las franjas de color verde*/
+.columna-izquierda {
+    background-color: seagreen;
+    color: white;
+}
+
+/*Tipografia de la pagina aplicada a todo el cuerpo d ela web*/
+.body{
+    font-family: Delius-Regular;
+}
+
+/*Tipografia de la pagina*/
+@font-face { /* Sirve para insertar una fuente de Google Font */
+    font-family: Delius-Regular; /* Especifica el nombre de la fuente */
+    src: url(../font-type/Delius-Regular.ttf); /* Especifica la URL de la carpeta donde se descargo previamente la fuente de Goggle Font */
+}
